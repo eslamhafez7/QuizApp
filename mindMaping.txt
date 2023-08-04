@@ -3,7 +3,6 @@ Done
 02 - Create HTML markup
 03 - Add dummy data
 04 - Styling
-In Progress
 05 - Fetch number of questiosns from json object
 06 - Display questions count + questions category
 07 - Display the number of bullets depend on questions count
@@ -15,6 +14,7 @@ In Progress
 13 - If time end mark the question as wrong and Show the next question
 14 - Add class on bullet after answering the question
 15 - If questions finished Display the result
+In Progress
    Ideas
       - Many json files
       - Add many questions and choose only 10
