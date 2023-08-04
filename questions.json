@@ -1,0 +1,82 @@
+[
+  {
+    "title": "What is the purpose of the 'typeof' operator in JavaScript?",
+    "answer_1": "To check if a variable is defined",
+    "answer_2": "To determine the data type of a value",
+    "answer_3": "To convert a string to a number",
+    "answer_4": "To concatenate two strings",
+    "right_answer": "To determine the data type of a value"
+  },
+  {
+    "title": "Which method is used to add an element to the end of an array in JavaScript?",
+    "answer_1": "push()",
+    "answer_2": "add()",
+    "answer_3": "append()",
+    "answer_4": "concat()",
+    "right_answer": "push()"
+  },
+  {
+    "title": "What does the 'const' keyword do in JavaScript?",
+    "answer_1": "Declares a constant variable",
+    "answer_2": "Declares a variable with block scope",
+    "answer_3": "Declares a variable with function scope",
+    "answer_4": "Declares a variable with global scope",
+    "right_answer": "Declares a constant variable"
+  },
+  {
+    "title": "How do you write a single-line comment in JavaScript?",
+    "answer_1": "// This is a comment",
+    "answer_2": "/* This is a comment */",
+    "answer_3": "<!-- This is a comment -->",
+    "answer_4": "# This is a comment",
+    "right_answer": "// This is a comment"
+  },
+  {
+    "title": "What is the purpose of the 'addEventListener' method in JavaScript?",
+    "answer_1": "To create a new event in the browser",
+    "answer_2": "To attach an event handler to an element",
+    "answer_3": "To stop event propagation",
+    "answer_4": "To remove an event from the DOM",
+    "right_answer": "To attach an event handler to an element"
+  },
+  {
+    "title": "How can you convert a string to an integer in JavaScript?",
+    "answer_1": "parseInt()",
+    "answer_2": "parseFloat()",
+    "answer_3": "toString()",
+    "answer_4": "toFixed()",
+    "right_answer": "parseInt()"
+  },
+  {
+    "title": "What is the result of 10 + '20' in JavaScript?",
+    "answer_1": "30",
+    "answer_2": "1020",
+    "answer_3": "Error",
+    "answer_4": "NaN",
+    "right_answer": "1020"
+  },
+  {
+    "title": "How do you declare a function in JavaScript?",
+    "answer_1": "function = myFunction()",
+    "answer_2": "function myFunction()",
+    "answer_3": "var myFunction = function()",
+    "answer_4": "const myFunction => ()",
+    "right_answer": "function myFunction()"
+  },
+  {
+    "title": "What is the purpose of the 'this' keyword in JavaScript?",
+    "answer_1": "To refer to the current function",
+    "answer_2": "To refer to the global object",
+    "answer_3": "To refer to the parent object",
+    "answer_4": "To refer to the current element",
+    "right_answer": "To refer to the parent object"
+  },
+  {
+    "title": "How do you check if a variable is an array in JavaScript?",
+    "answer_1": "Array.isArray()",
+    "answer_2": "typeof()",
+    "answer_3": "isArray()",
+    "answer_4": "isarray()",
+    "right_answer": "Array.isArray()"
+  }
+]

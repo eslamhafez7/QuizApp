@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;1,400;1,600;1,800&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+}
+.body {
+    background-color: #fff;
+    min-height: 120vh;
+}
+.quiz-app {
+    margin: 20px auto;
+    width: 100%;
+    background-color: #f8f8f8;
+    padding: 20px;
+    position: relative; 
+}
+.quiz-app .quiz-info {
+    display: flex;
+    background-color: #fff;
+    padding: 15px;
+}
+.quiz-app .quiz-info .category {
+    flex: 1;
+}
+.quiz-app .quiz-info .category span,
+.quiz-app .quiz-info .counter span {
+    text-transform: uppercase;
+    color: #000;
+    font-weight: bold;
+}
+.quiz-app .quiz-info .counter {
+    flex: 1;
+    text-align: right;
+}
+.quiz-app .quiz-info .counter span {
+    font-size: 18px;
+}
+.quiz-app .questions-area {
+    background-color: #fff;
+    margin-top: 15px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+}
+.quiz-app .questions-area h2 {
+    font-size: 22px;
+}
+.count-down {
+    width: 100%;
+    text-align: right;
+    padding: 10px 0;
+}
+.quiz-app .answers-area {
+    background-color: #f8f8f8;
+    padding: 20px;
+}
+.quiz-app .answers-area .answer {
+    padding: 10px 0;
+}
+.quiz-app .answers-area .answer input[type="radio"]:checked + label {
+    color: #0057ff;
+}
+.answer label {
+    cursor: pointer;
+    color: #333;
+    margin-left: 5px;
+    font-size: 14px;
+}
+.quiz-app .answers-area .answer:not(:last-child) {
+    border-bottom: 1px solid #ccc;
+}
+.submit_info {
+    width: 100%;
+    padding: 20px;
+    margin-top: 20px;
+    background-color: #fff;
+}
+#submit_answer {
+    width: 100%;
+    background-color: #0057ff;
+    border: 1px solid #ccc;
+    color: #fff;
+    font-size: 18px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+}
+.bullets .spans_container {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 15px;
+}
+.bullets span {
+    background-color: #ddd;
+    width: 15px;
+    height: 15px;
+    display: flex;
+    border-radius: 50%;
+    margin-left: 5px;
+}
+.bullets span.active {
+    background-color: #0057ff;
+}
+.results .perfect .rank {
+    color: #0057ff;
+}
+.results .good .rank {
+    color: greenyellow;
+}
+.results .bad .rank {
+    color: red;
+}
+.spread {
+    font-size: 13px;
+}
